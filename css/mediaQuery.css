@@ -1,0 +1,446 @@
+@media screen and (max-width: 1600px) {
+  #experience .experience-contents .experience-r-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #experience .experience-contents .experience-r-content img {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header .title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  #experience .experience-contents .experience-r-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #experience .experience-contents .experience-l-content {
+    width: 50%;
+  }
+
+  #experience .experience-contents .experience-r-content img {
+    width: 600px;
+  }
+
+  #experience .experience-card .exp-title-area {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  #experience .exp-title-area .exp-date {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    cursor: default;
+  }
+
+  #experience .exp-title-area .exp-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #experience .experience-card .exp-pos {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #experience .experience-card .exp-des {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  ul.nav-links {
+    display: none;
+  }
+
+  #nav .menu-area{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #nav .wrapper-menu {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 330ms ease-out;
+  }
+
+  #header .title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  #header .btn-1 {
+    padding: 0 20px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+
+  #header .btn-2 {
+    padding: 0 20px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+
+  #experience .experience-contents .experience-r-content img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #header .subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  #header .subtitle-2 {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  #header .title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  #header .btn-1 {
+    padding: 0 10px;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 4px;
+  }
+
+  #header .btn-2 {
+    padding: 0 10px;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 4px;
+  }
+  #about .about-text-content-area {
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    line-height: 1.2rem;
+  }
+
+  #about .about-text-content-area p {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+
+  #experience .experience-contents .experience-r-content img {
+    width: 300px;
+  }
+
+  #experience .experience-card .exp-title-area {
+    margin-bottom: 0;
+  }
+
+  #experience .exp-title-area .exp-date {
+    font-size: 0.6rem;
+    font-weight: 200;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    cursor: default;
+  }
+
+  #experience .exp-title-area .exp-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  #experience .experience-card .exp-pos {
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+
+  #experience .experience-card .exp-des {
+    font-size: 0.6rem;
+    font-weight: 300;
+  }
+
+  #works .card{
+    max-height: fit-content;
+    padding: 10px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+      #header .btn-1 {
+        padding: 0 10px;
+        height: 30px;
+        font-size: 0.5rem;
+        font-weight: 400;
+        border-radius: 3px;
+      }
+    
+      #header .btn-2 {
+        padding: 0 10px;
+        height: 30px;
+        font-size: 0.5rem;
+        font-weight: 400;
+        border-radius: 3px;
+      }
+      
+      #about .about-text-content-area {
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        line-height: 1rem;
+        border-radius: 0.4rem;
+      }
+        
+      #experience .exp-title-area .exp-date {
+        font-size: 0.5rem;
+        font-weight: 200;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        cursor: default;
+      }
+    
+      #experience .exp-title-area .exp-title {
+        font-size: 0.6rem;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+    
+      #experience .experience-card .exp-pos {
+        font-size: 0.5rem;
+        font-weight: 400;
+      }
+    
+      #experience .experience-card .exp-des {
+        font-size: 0.5rem;
+        font-weight: 200;
+      }
+
+}
+
+@media screen and (max-width: 500px) {
+  .container section{
+    padding-top: 3rem;
+  }
+  .container{
+    padding: 0 !important;
+  }
+
+  body .header-navbar{
+    height: 50px;
+  }
+  body .header-navbar.sticky {
+    top: 10px;
+    left: 15px;
+    border-radius: 10px;
+  }
+
+  #nav .logo {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #nav .wrapper-menu {
+   transform: scale(0.6);
+  }
+
+  #nav .wrapper-menu.open {
+    transform:scale(0.6) rotate(-45deg);
+  }
+
+  #nav .wrapper-menu-list.open {
+    top: 3rem;
+  }
+
+  #nav .wrapper-menu-list.open .menu-links li {
+    margin:  0;
+    border: none;
+  }
+
+  #nav .wrapper-menu-list.open .menu-links li a {
+    margin: 0.3rem 0;
+    font-size: 0.8rem;
+  }
+
+  .container #header .header-content-area {
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .container #header .hearder-l-content {
+    width: 80%;
+  }
+
+  .container #header .hearder-r-content {
+    width: 80%;
+  }
+
+  .container #header .subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .container #header .subtitle-2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .container #header .title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .container #header .buttons {
+    margin-top: 1rem;
+    width: 70%;
+  }
+
+  .container #header .btn-1 {
+    border: 1px solid var(--body-dark-color);
+    padding: 0 30px;
+    height: 35px;
+  }
+
+  .container #header .btn-2 {
+    border: 1px solid var(--body-dark-color);
+    padding: 0 30px;
+    height: 35px;
+  }
+
+  .container #about .about-content-area .subtitle-2 {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .container #about .about-content-area .title-2 {
+    font-size: 1rem;
+  }
+  
+  .container #about .about-text-content-area {
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+  .container #experience .experience-content-area .subtitle-2 {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .container #experience .experience-content-area .title-2 {
+    font-size: 1rem;
+  }
+
+  .container #experience .experience-content-area {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .container #experience .experience-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container #experience .experience-contents .experience-r-content{
+    display: none;
+  }
+  .container #experience .experience-contents .experience-l-content{
+    width: 80%;
+  }
+
+  .container #works .works-content-area .subtitle-2 {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .container #works .works-content-area .title-2 {
+    font-size: 1rem;
+  }
+
+  .container #works .works-cards-area {
+    margin: 0 !important;
+    width: 80%;
+  }
+
+  .container #works .modal{
+    max-height: 75vh !important;
+  }
+  .container #works .modal-content{
+    padding-bottom: 1rem;
+  }
+  .container #works .modal-body{
+    margin: 0;
+  }
+
+  .container #works .modal-body-img{
+    padding: 0;
+  }
+  
+  .container #works .modal-body-title{
+
+    padding: 0;
+  }
+  
+  .container #works .modal-body-title h2{
+    margin: 1rem 0;
+  }
+  
+  .container #works .modal-body-text{
+    padding: 0 0.6rem;
+  }
+  
+
+
+
+
+
+
+
+  #contact {
+    height: 15vh;
+  }
+  #contact .contact-content-area {
+    width: 100%;
+    height: 15vh;
+  }
+
+  #contact .contact-text h2 {
+    font-size: 1rem;
+  }
+
+  #contact .contact-links a i {
+    margin: 0 1rem;
+    font-size: 1.5rem !important;
+  }
+  body .footer-text {
+    padding-bottom: 1rem;
+    font-size: 0.6rem;
+    color: var(--sidebar-light-color);
+    background-color: var(--body-dark-color);
+  }
+}

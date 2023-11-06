@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 1200px) {
+    #nav .wrapper-menu-list.open {
+      right: 13%;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    #nav .wrapper-menu-list.open {
+      right: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    #nav .wrapper-menu-list.open {
+      right: 18%;
+    }
+  }
+  
+  @media screen and (max-width: 830px) {
+    #nav .wrapper-menu-list.open {
+      right: 11%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #nav .wrapper-menu-list.open {
+      right: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    #nav .wrapper-menu-list.open {
+      right: 15%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #nav .wrapper-menu-list.open {
+      right: 9%;
+    }
+  }
+  
