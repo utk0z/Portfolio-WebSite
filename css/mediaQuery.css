@@ -67,13 +67,13 @@
     display: none;
   }
 
-  #nav .menu-area{
+  #nav .menu-area {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   #nav .wrapper-menu {
     width: 2rem;
     height: 2rem;
@@ -180,75 +180,70 @@
     font-weight: 300;
   }
 
-  #works .card{
+  #works .card {
     max-height: fit-content;
     padding: 10px;
   }
-
-
-
 }
 
 @media screen and (max-width: 768px) {
+  #header .btn-1 {
+    padding: 0 10px;
+    height: 30px;
+    font-size: 0.5rem;
+    font-weight: 400;
+    border-radius: 3px;
+  }
 
-      #header .btn-1 {
-        padding: 0 10px;
-        height: 30px;
-        font-size: 0.5rem;
-        font-weight: 400;
-        border-radius: 3px;
-      }
-    
-      #header .btn-2 {
-        padding: 0 10px;
-        height: 30px;
-        font-size: 0.5rem;
-        font-weight: 400;
-        border-radius: 3px;
-      }
-      
-      #about .about-text-content-area {
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;
-        line-height: 1rem;
-        border-radius: 0.4rem;
-      }
-        
-      #experience .exp-title-area .exp-date {
-        font-size: 0.5rem;
-        font-weight: 200;
-        text-decoration: underline;
-        text-underline-offset: 0.2rem;
-        cursor: default;
-      }
-    
-      #experience .exp-title-area .exp-title {
-        font-size: 0.6rem;
-        font-weight: 500;
-        margin-bottom: 0;
-      }
-    
-      #experience .experience-card .exp-pos {
-        font-size: 0.5rem;
-        font-weight: 400;
-      }
-    
-      #experience .experience-card .exp-des {
-        font-size: 0.5rem;
-        font-weight: 200;
-      }
+  #header .btn-2 {
+    padding: 0 10px;
+    height: 30px;
+    font-size: 0.5rem;
+    font-weight: 400;
+    border-radius: 3px;
+  }
 
+  #about .about-text-content-area {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    line-height: 1rem;
+    border-radius: 0.4rem;
+  }
+
+  #experience .exp-title-area .exp-date {
+    font-size: 0.5rem;
+    font-weight: 200;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    cursor: default;
+  }
+
+  #experience .exp-title-area .exp-title {
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  #experience .experience-card .exp-pos {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+
+  #experience .experience-card .exp-des {
+    font-size: 0.5rem;
+    font-weight: 200;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .container section{
+  .container section {
     padding-top: 3rem;
   }
-  .container{
+  .container {
     padding: 0 !important;
   }
 
-  body .header-navbar{
+  body .header-navbar {
     height: 50px;
   }
   body .header-navbar.sticky {
@@ -263,11 +258,11 @@
   }
 
   #nav .wrapper-menu {
-   transform: scale(0.6);
+    transform: scale(0.6);
   }
 
   #nav .wrapper-menu.open {
-    transform:scale(0.6) rotate(-45deg);
+    transform: scale(0.6) rotate(-45deg);
   }
 
   #nav .wrapper-menu-list.open {
@@ -275,7 +270,7 @@
   }
 
   #nav .wrapper-menu-list.open .menu-links li {
-    margin:  0;
+    margin: 0;
     border: none;
   }
 
@@ -337,7 +332,7 @@
   .container #about .about-content-area .title-2 {
     font-size: 1rem;
   }
-  
+
   .container #about .about-text-content-area {
     margin-top: 1rem;
     padding: 1rem 1rem;
@@ -365,11 +360,11 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .container #experience .experience-contents .experience-r-content{
+
+  .container #experience .experience-contents .experience-r-content {
     display: none;
   }
-  .container #experience .experience-contents .experience-l-content{
+  .container #experience .experience-contents .experience-l-content {
     width: 80%;
   }
 
@@ -387,39 +382,37 @@
     width: 80%;
   }
 
-  .container #works .modal{
+  .container #works .modal {
     max-height: 75vh !important;
   }
-  .container #works .modal-content{
-    padding-bottom: 1rem;
+  .container #works .modal-content {
+    margin: 0 2rem;
+    height: 60vh !important;
   }
-  .container #works .modal-body{
+  .container #works .modal-body {
     margin: 0;
+    padding-top: 0;
   }
 
-  .container #works .modal-body-img{
+  .container #works .modal-body-img {
     padding: 0;
   }
-  
-  .container #works .modal-body-title{
 
+  .container #works .modal-body-title {
     padding: 0;
   }
-  
-  .container #works .modal-body-title h2{
+
+  .container #works .modal-body-title h2 {
     margin: 1rem 0;
   }
-  
-  .container #works .modal-body-text{
+
+  .container #works .modal-body-text {
     padding: 0 0.6rem;
   }
-  
 
-
-
-
-
-
+  .container #works .modal-footer .live {
+    margin-top: 1rem;
+  }
 
   #contact {
     height: 15vh;

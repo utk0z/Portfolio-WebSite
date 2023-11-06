@@ -38,11 +38,11 @@ body {
   background-color: var(--sidebar-light-color);
   overflow-x: hidden;
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
-section{
+section {
   padding-top: 5rem;
 }
 
@@ -81,7 +81,6 @@ section{
   padding: 0 0.5rem;
 }
 
-
 .logo {
   font-size: 1.7rem;
   font-weight: 700;
@@ -96,7 +95,6 @@ section{
   display: flex;
   flex-direction: row;
 }
-
 
 .nav-link {
   margin: 0 1.2rem;
@@ -114,10 +112,9 @@ section{
   color: var(--primary-color-dark);
 }
 
-.menu-area{
+.menu-area {
   display: none;
 }
-
 
 .wrapper-menu.open {
   transform: rotate(-45deg);
@@ -152,8 +149,6 @@ section{
 .open .line-menu.end {
   transform: rotate(-90deg) translateX(-3px);
 }
-
-
 
 .wrapper-menu-list {
   display: none;
@@ -425,7 +420,7 @@ section{
   height: 100%;
 }
 
-.card{
+.card {
   max-height: 20rem;
   overflow: hidden;
   padding: 20px;
@@ -441,7 +436,7 @@ section{
   transform: scale(1.025);
 }
 
-.card-img-top{
+.card-img-top {
   object-fit: cover;
   overflow: hidden;
 }
@@ -467,40 +462,41 @@ section{
   -webkit-box-orient: vertical;
 }
 
-.modal{
-  margin: 6rem 0!important;
+.modal {
+  margin: 6rem 0 !important;
   max-height: 90vh !important;
 }
-.modal ::-webkit-scrollbar{
+.modal ::-webkit-scrollbar {
   display: none;
 }
 
-.modal-content{
+.modal-content {
   border-radius: 1rem !important;
 }
-
-.modal-body{
-  margin: 0.5rem 1.5rem;
+.modal-header {
+  border: none !important;
+  height: 1rem;
+}
+.modal-body {
+  margin: 0 1.5rem;
 }
 
-
-.modal-body-img{
+.modal-body-img {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   padding: 1rem;
-  
 }
 
-.modal-body-img img{
-    width: 100%;
-    object-fit: contain;
-    border-radius: 16px;
+.modal-body-img img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 16px;
 }
 
-.modal-body-title{
+.modal-body-title {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -508,13 +504,13 @@ section{
   padding: 0 1rem;
 }
 
-.modal-body-title h2{
+.modal-body-title h2 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1rem 0;
 }
 
-.modal-body-text{
+.modal-body-text {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -523,43 +519,38 @@ section{
   text-align: justify;
 }
 
-.modal-body-text p{
+.modal-body-text p {
   font-size: 0.8rem;
   font-weight: 400;
-
 }
 
-.modal-footer{
+.modal-footer {
   border: none !important;
   display: flex !important;
   flex-direction: row !important;
-  justify-content: center!important;
+  justify-content: center !important;
 }
 
-.modal-footer button{
+.modal-footer button {
   text-align: center;
   font-size: 0.8rem;
   transition: var(--trans-03);
-  background: #18191a!important;
+  background: #18191a !important;
   min-width: 5rem;
   margin: 0 2rem;
 }
-.modal-footer .live{
+.modal-footer .live {
   font-weight: bold;
-  background: #F20519!important;
-  border: 1px solid #F20519 !important;
-  
+  background: #f20519 !important;
+  border: 1px solid #f20519 !important;
 }
-.modal-footer button:hover{
+.modal-footer button:hover {
   transform: scale(1.025);
   opacity: 1;
   background-color: #18191a;
 }
 
-
-
 /* ====== CONTACT ====== */
-
 
 .contact {
   position: relative;
@@ -571,7 +562,7 @@ section{
   height: 20vh;
 }
 
-section.contact-content-area{
+section.contact-content-area {
   margin: 0 3rem;
   padding-top: 0;
 }
